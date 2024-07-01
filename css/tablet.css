@@ -1,0 +1,9 @@
+header {
+  display: block; }
+  header div {
+    display: flex; }
+
+.icon {
+  color: black; }
+  .icon-faccebook {
+    color: blue; }
