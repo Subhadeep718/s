@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+/* html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+} */
+
 body {
   font-family: "Poppins", sans-serif;
   background: rgb(0, 0, 33);
