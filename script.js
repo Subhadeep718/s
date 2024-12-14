@@ -245,3 +245,22 @@ $(document).ready(function(){
   };
   
 })(jQuery);
+
+
+$(document).ready(function() {
+  // Smooth scroll for all anchor links
+  $('ul#ul a').on('click', function(event) {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store the hash (target section ID)
+      var target = this.hash;
+
+      // Animate scrolling to the target section
+      $('html, body').animate({
+          scrollTop: $(target).offset().top
+      }, 2000); // Adjust speed (800ms in this case)
+
+      return false; // Optional: prevent default behavior
+  });
+});
