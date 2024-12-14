@@ -681,6 +681,11 @@ footer .footer-center {
   opacity: 0;
 }
 
+
+/* section{
+  height: 100vh;
+} */
+
 @keyframes movedown {
   100% {
     opacity: 1;
